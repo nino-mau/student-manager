@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.*?>
 
 
-<VBox prefHeight="200.0" prefWidth="300.0" styleClass="panel-primary" stylesheets="@bootstrapfx.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLLER_NAME">
+<VBox prefHeight="200.0" prefWidth="300.0" styleClass="panel-primary" stylesheets="@bootstrapfx.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.studentmanager.StudentCardController">
    <children>
       <Label text="Student Name">
          <styleClass>
