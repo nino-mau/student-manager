@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<VBox prefHeight="200.0" prefWidth="300.0" styleClass="panel-primary" stylesheets="@bootstrapfx.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CONTROLLER_NAME">
+   <children>
+      <Label text="Student Name">
+         <styleClass>
+            <String fx:value="h4" />
+            <String fx:value="strong" />
+         </styleClass>
+      </Label>
+      <Label styleClass="h5" text="Age">
+         <VBox.margin>
+            <Insets top="5.0" />
+         </VBox.margin>
+      </Label>
+      <HBox alignment="BOTTOM_RIGHT" prefWidth="200.0" VBox.vgrow="ALWAYS">
+         <children>
+            <Button mnemonicParsing="false" text="Edit">
+               <styleClass>
+                  <String fx:value="btn" />
+                  <String fx:value="btn-default" />
+               </styleClass>
+               <HBox.margin>
+                  <Insets right="16.0" />
+               </HBox.margin>
+            </Button>
+            <Button mnemonicParsing="false" text="Delete">
+               <styleClass>
+                  <String fx:value="btn" />
+                  <String fx:value="btn-danger" />
+               </styleClass>
+            </Button>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </HBox>
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
